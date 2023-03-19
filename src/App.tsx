@@ -1,10 +1,13 @@
 import { Box } from "@mui/material";
+import Layout from "./components/Layout";
 import Router from "./pages/Router";
 
 const App = () => {
   return (
     <Box my={4}>
-      <Router />
+      <Layout>
+        <Router />
+      </Layout>
     </Box>
   );
 };

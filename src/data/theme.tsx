@@ -32,9 +32,10 @@ let theme = createTheme({
   },
   typography: {
     h1: {
-      fontSize: "2rem",
-      fontWeight: 800,
+      fontSize: "3rem",
+      fontWeight: 500,
       letterSpacing: "0.03em",
+      padding: " 0.35em 0",
     },
     h2: {
       fontSize: "1.5rem",
