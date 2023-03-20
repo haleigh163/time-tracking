@@ -1,15 +1,13 @@
-import React from "react";
-import { Box } from "@mui/material";
-import TimerDisplay from "./TimerDisplay/";
+import Flex from "@ui/Flex";
+import TimerDisplay from "./TimerDisplay";
 import TimerActions from "./TimerActions";
-import Column from "@ui/Column";
 
 const Timer = () => {
   return (
-    <Column>
+    <Flex>
       <TimerDisplay />
       <TimerActions />
-    </Column>
+    </Flex>
   );
 };
 

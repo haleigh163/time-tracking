@@ -1,16 +1,15 @@
-import Row from "@ui/Row";
-import { TimerDisplayProps } from "./types";
-import TimerDisplayValue from "../TimerDisplayValue";
+import Flex from "@ui/Flex";
+import TimerDisplayValue from "./TimerDisplayValue";
 
-const TimerDisplay = ({}: TimerDisplayProps) => {
+const TimerDisplay = () => {
   return (
-    <Row justify="">
+    <Flex direction="row">
       <TimerDisplayValue value="00" />
       <TimerDisplayValue value=":" />
       <TimerDisplayValue value="00" />
       <TimerDisplayValue value=":" />
       <TimerDisplayValue value="00" />
-    </Row>
+    </Flex>
   );
 };
 
