@@ -1,7 +1,7 @@
 import { Navigate } from "react-router-dom";
-import NewRecord from "./NewRecord";
-import Overview from "./Overview";
-import Records from "./Records";
+import NewRecord from "../pages/NewRecord";
+import Overview from "../pages/Overview";
+import Records from "../pages/Records";
 
 type routerType = {
   title: string;

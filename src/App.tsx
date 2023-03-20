@@ -1,6 +1,6 @@
 import { Box } from "@mui/material";
 import Layout from "./components/Layout";
-import Router from "./pages/Router";
+import Router from "./routes/Router";
 
 const App = () => {
   return (
